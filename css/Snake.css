@@ -1,0 +1,88 @@
+body,ul,li,input,h3{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+img{
+	border: 0;
+}
+a{
+	text-decoration: none;
+}
+body{
+	background: url(../image/qi.png);
+}
+
+
+#scene{
+width: 392px;
+height: 392px;
+position: absolute;
+top: 0;
+bottom: 0;
+right: 0;
+left: 0;
+margin: auto;
+border: 1px solid #000;
+box-shadow: 0 0 10px #000;
+}
+
+
+
+#scene div{
+	width: 18px;
+	height: 18px;
+	border:1px solid #999;
+	float: left;
+}
+#scene .she{
+	background: #333;
+}
+#scene .shiwu{
+	background: #888;
+}
+#box{
+	width: 33%;
+	height: 450px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	
+}
+.left{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 20%;
+	height: 25%;
+	overflow: hidden;
+	display: block;
+}
+.left img{
+	width:100%;
+}
+.right{
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 25%;
+	height: 30%;
+	overflow: hidden;
+	display: block;
+}
+.right img{
+	width: 100%;
+}
+.snake{
+	position: absolute;
+	top: 5%;
+	left:5%;
+	width: 23%;
+	height: auto;
+	overflow: hidden;
+}
+.snake img{
+	width: 100%;
+}
